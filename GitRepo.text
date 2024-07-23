@@ -1,3 +1,38 @@
-# to create a new repo
-intially make a folder in your local machine
-make a new Repo in Github
+#Configure Github
+-> git config --global user.name "My Name"
+-> git config --global user.email "example@gmail.com"
+-> git cinfig --list
+
+#clone
+->clone a repository on our local machine 
+-> git clone <-link->
+
+-> git init 
+:- to start a new git in that folder
+
+Status :- display the state of the code git Status
+
+Add :-> add new or changed files in your working directory to the git staging area
+-> git add <-file name->
+
+Commit :-> it is the record of change 
+-> git commit -m "some message"
+
+Push :-> to upload local repo content to remote repo
+-> git push -u origin main :- initially use this to make shortcut
+
+// to push new repo
+-> git init
+-> git remote add origin
+-> git remote -v :- to verify remote
+-> git branch :- to check branch
+-> git branch -M main :- to change or rename branch to main
+
+-> git push -u origin main :- initially use this to make shortcut
+or
+->git push :- after using previous one you can use only this command
+
+Untracked :- new files that git doesnt yet track
+Modified :- changed
+Staged :- File is ready to be commited
+Unmodified :- Unchanged
