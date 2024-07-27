@@ -1,0 +1,8 @@
+Q. How to create a react Project
+=>  1.Make a folder
+    2.open it in vs code
+    3.open terminal
+    4.npm create vite@latest
+    5.project name -> react -> javascript
+    6. npm install
+    7.npm run dev
